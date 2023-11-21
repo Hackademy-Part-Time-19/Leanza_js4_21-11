@@ -25,6 +25,8 @@ let listaProdotti = [
     },
 ]
 
+// ordinamento per nome
+
 let listaOrdinataPerNome =listaProdotti.sort((a, b) => {
     let nomeA = a.nome.toUpperCase();
     let nomeB = b.nome.toUpperCase();
@@ -40,6 +42,7 @@ let listaOrdinataPerNome =listaProdotti.sort((a, b) => {
 
 console.log(listaProdotti);
 
+// ordinamento per prezzo
 
 listaProdotti.sort((a, b) => {
 
