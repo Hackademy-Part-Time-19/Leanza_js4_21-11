@@ -44,7 +44,7 @@ console.log(listaProdotti);
 
 // ordinamento per prezzo
 
-listaProdotti.sort((a, b) => {
+let listaOrdinataPerPrezzo = listaProdotti.sort((a, b) => {
 
     if (a.prezzo < b.prezzo) {
         return -1;
@@ -55,5 +55,5 @@ listaProdotti.sort((a, b) => {
     return 0;
 });
 
-console.log(listaProdotti);
+console.log(listaOrdinataPerPrezzo);
 
